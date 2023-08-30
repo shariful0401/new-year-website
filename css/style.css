@@ -118,8 +118,9 @@ footer{
 .feture{
   color: white;
   padding-left: 230px;
-  padding-right: 500px;
+  padding-right: 400px;
   padding-top: 130px;
+  padding-bottom: 130px;
 }
 .icon img{
   margin: 5px;
@@ -127,7 +128,9 @@ footer{
 .future-input{
   margin: 20px;
   color: white;
+  padding-right: 200px;
   padding-top: 130px ;
+  padding-bottom: 130px;
 }
 .future-input input{
   padding: 10px 20px;
