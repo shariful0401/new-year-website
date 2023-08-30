@@ -1,0 +1,146 @@
+body {
+  margin: 0 auto;
+}
+
+header {
+  background-image: url('../images/banner/banner1.png');
+  height: 800px;
+}
+
+.header-content {
+  text-align: end;
+  padding-top: 200px;
+  padding-right: 150px;
+  padding-left: 840px;
+}
+
+.header-title {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.header-btn {
+  border-radius: 5px;
+  background: #F15B22;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* header end */
+
+/* failure section css start */
+
+.failure {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 50px;
+}
+
+.failure-image{
+  padding-left: 100px;
+  padding-right: 200px;
+  width: 451px;
+  height: 800px;
+}
+.failure-content{
+  padding-top: 10px;
+  padding-right: 200px;
+}
+.failure-content h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/* failure section css start */
+
+/* My plane section start */
+.plane-section h1{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+.plans{
+  display: flex;
+  justify-content:space-evenly;
+}
+.plan{
+  text-align: center;
+}
+.plan h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+.plan p{
+  color: #737272;
+}
+.plan img{
+  height: 90px;
+  width: 90px;
+}
+.positive-div{
+  background-image:  linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),
+    url('../images/watch.png');
+    width: 1140px;
+    height: 200px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+.positive-div h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.btn{
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  color: #F15B22;
+  font-size: 15px;
+}
+.positive-section{
+  padding-top: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+/* footer start heare */
+footer{
+  display: flex;
+  background-color: black;
+  height: 577px;
+}
+.feture{
+  color: white;
+  padding-left: 230px;
+  padding-right: 500px;
+  padding-top: 130px;
+}
+.icon img{
+  margin: 5px;
+}
+.future-input{
+  margin: 20px;
+  color: white;
+  padding-top: 130px ;
+}
+.future-input input{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+.subscribe-btn{
+  background-color: white;
+  padding: 10px 20px;
+  color: #F15B22;
+  border: none;
+  border-radius: 8px;
+}
